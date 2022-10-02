@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="6dp"
+        android:layout_height="379dp"
+        android:background="#9C27B0"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="116dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/team_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team A"
+        android:textColor="@color/purple_700"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="159dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/team_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team B"
+        android:textColor="@color/purple_700"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="159dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/team_a_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/purple_500"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="207dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/team_b_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="@color/purple_200"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="207dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/team_a_3points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 points"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="251dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/team_a_2points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 points "
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="318dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/team_a_foul_shot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="free shot"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="386dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/team_b_3points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 points"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="251dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/team_b_2points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 points"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="318dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/team_b_foul_shot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="free shot"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="386dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/reset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="527dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="410dp"
+        android:layout_height="98dp"
+        android:background="#700488"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-1dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="court counter"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
